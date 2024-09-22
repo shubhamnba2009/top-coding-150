@@ -7,6 +7,7 @@
 | ------- |
 | [0020-valid-parentheses](https://github.com/shubhamnba2009/top-coding-150/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/shubhamnba2009/top-coding-150/tree/master/0125-valid-palindrome) |
+| [0242-valid-anagram](https://github.com/shubhamnba2009/top-coding-150/tree/master/0242-valid-anagram) |
 ## Stack
 |  |
 | ------- |
@@ -20,6 +21,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/shubhamnba2009/top-coding-150/tree/master/0001-two-sum) |
+| [0242-valid-anagram](https://github.com/shubhamnba2009/top-coding-150/tree/master/0242-valid-anagram) |
 ## Linked List
 |  |
 | ------- |
@@ -52,4 +54,8 @@
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0226-invert-binary-tree) |
+## Sorting
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/shubhamnba2009/top-coding-150/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
