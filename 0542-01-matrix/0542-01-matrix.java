@@ -14,7 +14,7 @@ class Solution {
         }
 
         for(int i =m-1;i>=0;i--){
-            for(int j =n-1;j>=n;j--){
+            for(int j =n-1;j>=0;j--){
                 if(mat[i][j]==0) continue;
                 int minVal = m*n;
                 if(i<m-1) minVal = Math.min(minVal, mat[i+1][j]);
