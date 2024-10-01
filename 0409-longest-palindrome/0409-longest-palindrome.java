@@ -9,13 +9,10 @@ class Solution {
 
         for(char a:cnt.keySet()){
             int val = cnt.get(a);
-            if(val%2 == 0) res+=val;
-            else{
-                res=res+val-1;
-                flg=1;
-            }
+            if(val%2!=0) flg++;
+            res+=val;
         }
-        return res=res+(flg==1?1:0);
+        return res=res-(flg!=0?(flg-1):0);
 
     }
 }
