@@ -1,13 +1,14 @@
 class TrieNode{
     boolean isCompleted;
-    TrieNode[] child;
+    TrieNode[] children;
 
     TrieNode(){
         isCompleted = false;
-        child = new TrieNode[26];
+        children = new TrieNode[26];
     }
 }
 class Trie {
+
     TrieNode root;
     public Trie() {
         root = new TrieNode();
@@ -15,38 +16,32 @@ class Trie {
     
     public void insert(String word) {
         TrieNode tmp = root;
-
-        for(char a: word.toCharArray()){
-            if(tmp.child[a-'a']==null){
-                tmp.child[a-'a'] = new TrieNode();
+        for(char a:word.toCharArray()){
+            if(tmp.children[a-'a']==null) {
+                tmp.children[a-'a'] = new TrieNode();
             }
-            tmp = tmp.child[a-'a'];
+            tmp = tmp.children[a-'a']; 
         }
         tmp.isCompleted = true;
     }
     
     public boolean search(String word) {
         TrieNode tmp = root;
-
         for(char a:word.toCharArray()){
-            if(tmp.child[a-'a']==null)
-                return false;
-            tmp = tmp.child[a-'a'];
+             if(tmp.children[a-'a']==null) return false;
+             tmp = tmp.children[a-'a'];
         }
-        if(tmp.isCompleted)
-            return true;
 
-        return false;
+        return tmp.isCompleted?true:false;
     }
     
     public boolean startsWith(String prefix) {
         TrieNode tmp = root;
-
         for(char a:prefix.toCharArray()){
-            if(tmp.child[a-'a']==null)
-                return false;
-            tmp = tmp.child[a-'a'];
+             if(tmp.children[a-'a']==null) return false;
+             tmp = tmp.children[a-'a'];
         }
+
         return true;
     }
 }
