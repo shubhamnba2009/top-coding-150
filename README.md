@@ -73,6 +73,7 @@
 ## Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0098-validate-binary-search-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/shubhamnba2009/top-coding-150/tree/master/0102-binary-tree-level-order-traversal) |
 | [0110-balanced-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0226-invert-binary-tree) |
@@ -80,6 +81,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0098-validate-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0110-balanced-binary-tree) |
 | [0133-clone-graph](https://github.com/shubhamnba2009/top-coding-150/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/shubhamnba2009/top-coding-150/tree/master/0207-course-schedule) |
@@ -99,6 +101,7 @@
 ## Binary Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0098-validate-binary-search-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/shubhamnba2009/top-coding-150/tree/master/0102-binary-tree-level-order-traversal) |
 | [0110-balanced-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0226-invert-binary-tree) |
@@ -127,6 +130,7 @@
 ## Binary Search Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0098-validate-binary-search-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 ## Math
 |  |
