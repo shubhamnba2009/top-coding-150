@@ -35,6 +35,7 @@
 | [0733-flood-fill](https://github.com/shubhamnba2009/top-coding-150/tree/master/0733-flood-fill) |
 | [0792-binary-search](https://github.com/shubhamnba2009/top-coding-150/tree/master/0792-binary-search) |
 | [1014-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/1014-k-closest-points-to-origin) |
+| [1036-rotting-oranges](https://github.com/shubhamnba2009/top-coding-150/tree/master/1036-rotting-oranges) |
 ## Hash Table
 |  |
 | ------- |
@@ -101,6 +102,7 @@
 | [0322-coin-change](https://github.com/shubhamnba2009/top-coding-150/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/shubhamnba2009/top-coding-150/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/shubhamnba2009/top-coding-150/tree/master/0733-flood-fill) |
+| [1036-rotting-oranges](https://github.com/shubhamnba2009/top-coding-150/tree/master/1036-rotting-oranges) |
 ## Binary Tree
 |  |
 | ------- |
@@ -126,6 +128,7 @@
 | [0200-number-of-islands](https://github.com/shubhamnba2009/top-coding-150/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/shubhamnba2009/top-coding-150/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/shubhamnba2009/top-coding-150/tree/master/0733-flood-fill) |
+| [1036-rotting-oranges](https://github.com/shubhamnba2009/top-coding-150/tree/master/1036-rotting-oranges) |
 ## Divide and Conquer
 |  |
 | ------- |
