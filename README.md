@@ -84,6 +84,7 @@
 | [0110-balanced-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -94,6 +95,7 @@
 | [0207-course-schedule](https://github.com/shubhamnba2009/top-coding-150/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0733-flood-fill](https://github.com/shubhamnba2009/top-coding-150/tree/master/0733-flood-fill) |
 ## Breadth-First Search
 |  |
@@ -115,6 +117,7 @@
 | [0110-balanced-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 ## Sorting
 |  |
 | ------- |
