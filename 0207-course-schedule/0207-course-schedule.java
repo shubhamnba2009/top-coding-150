@@ -2,9 +2,11 @@ class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         List<List<Integer>> adjList = new ArrayList<>(numCourses);
 
-        for(int i = 0;i<numCourses;i++) adjList.add(i, new ArrayList<>());
+        for(int i = 0;i<numCourses;i++){
+            adjList.add(i, new ArrayList<>());
+        }
 
-        for(int[] pre: prerequisites){
+        for(int[] pre:prerequisites){
             adjList.get(pre[1]).add(pre[0]);
         }
 
@@ -12,25 +14,25 @@ class Solution {
         boolean[] isVisited = new boolean[numCourses];
 
         for(int i = 0;i<numCourses;i++){
-            if(dpHelper(i, adjList, stack, isVisited))
+            if(checkHelper(i, adjList, stack, isVisited)){
                 return false;
+            }
         }
         return true;
     }
 
-    public boolean dpHelper(int node, List<List<Integer>> adjList, boolean[] stack, boolean[] isVisited){
-        if(stack[node])
+    public boolean checkHelper(int n, List<List<Integer>> adjList, boolean[] stack, boolean[] isVisited){
+        if(stack[n])
             return true;
-        if(isVisited[node])
+        if(isVisited[n])
             return false;
-        isVisited[node] = true;
-        stack[node] = true;
-        for(int n: adjList.get(node)){
-            if(dpHelper(n, adjList, stack, isVisited))
-                return true;
-        }
-        stack[node] = false;
-        return false;
 
+        isVisited[n] = true;
+        stack[n] = true;
+        for(int i : adjList.get(n)){
+            if(checkHelper(i, adjList, stack, isVisited)) return true;
+        }
+        stack[n] = false;
+        return false;
     }
 }
