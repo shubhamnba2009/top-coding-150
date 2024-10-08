@@ -6,12 +6,10 @@ class Solution {
             if(map.containsKey(s.charAt(right))){
                 left = Math.max(left, map.get(s.charAt(right))+1);
             }
-
-            res = Math.max(res, right-left+1);
+            res = Math.max(res, right-left +1);
             map.put(s.charAt(right), right);
             right++;
         }
-
         return res;
     }
 }
