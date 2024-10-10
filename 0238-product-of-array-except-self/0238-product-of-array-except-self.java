@@ -3,6 +3,7 @@ class Solution {
         int[] res = new int[nums.length];
 
         res[0] = 1;
+
         for(int i = 1;i<nums.length;i++){
             res[i] = res[i-1]*nums[i-1];
         }
@@ -10,9 +11,11 @@ class Solution {
         int R = 1;
 
         for(int i = nums.length-1;i>=0;i--){
-            res[i] = R*res[i];
-            R *= nums[i];
+            int tmp = nums[i];
+            nums[i] = R*res[i];
+            R=R*tmp;
         }
-        return res;
+
+        return nums;
     }
 }
