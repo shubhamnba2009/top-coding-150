@@ -1,23 +1,32 @@
 class Solution {
     public String minWindow(String s, String t) {
-        int left = 0, right = 0, minLenght = Integer.MAX_VALUE, idx = -1, cnt = 0;
-        int[] hash = new int[256];
+        int[] map = new int[256];
 
-        for(char a:t.toCharArray()) hash[a]++;
+        int res = Integer.MAX_VALUE;
+
+        for(char a:t.toCharArray()){
+            map[a]++;
+        }
+
+        int left = 0, right = 0, len = t.length(), cnt = 0, idx = -1;
+
         while(right<s.length()){
-            if(hash[s.charAt(right)]>0)   cnt++;
-            hash[s.charAt(right)]--;
-            while(cnt==t.length()){
-                if(right-left+1<minLenght){
-                    minLenght = right-left+1;
+            if(map[s.charAt(right)]>0) cnt++;
+            map[s.charAt(right)]--;
+
+            while(cnt==len){
+                if(res>right-left+1){
                     idx = left;
+                    res = right-left+1;
                 }
-                hash[s.charAt(left)]++;
-                if(hash[s.charAt(left)]>0)  cnt--;
+
+                map[s.charAt(left)]++;
+                if(map[s.charAt(left)]>0) cnt--;
                 left++;
             }
             right++;
         }
-        return idx==-1?"":s.substring(idx, idx+minLenght);
+
+        return idx==-1?"":s.substring(idx, idx+res);
     }
 }
