@@ -11,6 +11,7 @@
 | [0125-valid-palindrome](https://github.com/shubhamnba2009/top-coding-150/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/shubhamnba2009/top-coding-150/tree/master/0242-valid-anagram) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0383-ransom-note](https://github.com/shubhamnba2009/top-coding-150/tree/master/0383-ransom-note) |
 | [0409-longest-palindrome](https://github.com/shubhamnba2009/top-coding-150/tree/master/0409-longest-palindrome) |
 ## Stack
@@ -91,6 +92,7 @@
 | [0226-invert-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -102,6 +104,7 @@
 | [0226-invert-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0733-flood-fill](https://github.com/shubhamnba2009/top-coding-150/tree/master/0733-flood-fill) |
 ## Breadth-First Search
 |  |
@@ -111,6 +114,7 @@
 | [0200-number-of-islands](https://github.com/shubhamnba2009/top-coding-150/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/shubhamnba2009/top-coding-150/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0226-invert-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/shubhamnba2009/top-coding-150/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/shubhamnba2009/top-coding-150/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/shubhamnba2009/top-coding-150/tree/master/0733-flood-fill) |
@@ -124,6 +128,7 @@
 | [0226-invert-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Sorting
 |  |
 | ------- |
@@ -178,6 +183,7 @@
 | [0155-min-stack](https://github.com/shubhamnba2009/top-coding-150/tree/master/0155-min-stack) |
 | [0208-implement-trie-prefix-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0208-implement-trie-prefix-tree) |
 | [0232-implement-queue-using-stacks](https://github.com/shubhamnba2009/top-coding-150/tree/master/0232-implement-queue-using-stacks) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Queue
 |  |
 | ------- |
