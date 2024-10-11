@@ -9,16 +9,14 @@
  */
 public class Codec {
 
-    public String rSerialize(TreeNode root, String s){
-        if(root == null){
-            s = s.concat("null,");
-            return s;
-        }
+    public String rSerialize(TreeNode root, String str){
+        if(root == null)
+            return str+"null,";
 
-        s = s.concat(root.val+",");
-        s = rSerialize(root.left, s);
-        s = rSerialize(root.right, s);
-        return s;
+        str += root.val+",";
+        str = rSerialize(root.left, str);
+        str = rSerialize(root.right, str);
+        return str;
     }
 
     // Encodes a tree to a single string.
@@ -26,26 +24,24 @@ public class Codec {
         return rSerialize(root, "");
     }
 
-    public TreeNode rDesearlize( List<String> lData ){
-        if(lData.get(0).equals("null")){
-            lData.remove(0);
+    public TreeNode rdeserialize(List<String> l){
+        if(l.get(0).equals("null")){
+            l.remove(0);
             return null;
         }
 
-        TreeNode node = new TreeNode(Integer.valueOf(lData.get(0)));
-        lData.remove(0);
-        node.left = rDesearlize(lData);
-        node.right = rDesearlize(lData);
+        TreeNode node = new TreeNode(Integer.valueOf(l.get(0)));
+        l.remove(0);
+        node.left = rdeserialize(l);
+        node.right = rdeserialize(l);
         return node;
     }
 
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
         String[] str = data.split(",");
-
-        List<String> lData = new ArrayList<>(Arrays.asList(str));
-
-        return rDesearlize(lData);
+        List<String> l = new ArrayList<>(Arrays.asList(str));
+        return rdeserialize(l);
     }
 }
 
