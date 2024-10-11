@@ -1,47 +1,41 @@
 class Solution {
     public int orangesRotting(int[][] grid) {
-        Queue<Pair<Integer, Integer>> queue = new ArrayDeque<>();
+        Queue<int[]> q = new ArrayDeque<>();
+        int ROW = grid.length, COL = grid[0].length, freshOranges = 0;
+        int[][] vis = new int[ROW][COL];
 
-        int ROWS = grid.length, COLS = grid[0].length, freshOranges = 0;
-
-        for(int i = 0;i<ROWS;i++){
-            for(int j = 0; j<COLS;j++){
-                if(grid[i][j]==2) queue.offer(new Pair(i, j));
-                else if(grid[i][j]==1) freshOranges++;
+        for(int i = 0;i<ROW; i++){
+            for(int j = 0;j<COL;j++){
+                if(grid[i][j]==2){
+                    vis[i][j] = 2;
+                    q.add(new int[]{i, j, 0});
+                }  else if (grid[i][j]==1) {
+                    freshOranges++;
+                }
             }
         }
 
-        queue.offer(new Pair(-1,-1));
-        int time = -1;
-        int[][] directions = {{1,0},{0,1},{-1,0},{0,-1}};
+        int[][] dir = {{1,0},{-1,0},{0,1},{0,-1}};
+        int time = 0, cnt = 0;
 
-        while(!queue.isEmpty()){
-            Pair<Integer, Integer> p = queue.poll();
-            int row = p.getKey();
-            int col = p.getValue();
+        while(!q.isEmpty()){
+            int r = q.peek()[0];
+            int c = q.peek()[1];
+            int t = q.peek()[2];
+            time = Math.max(time, t);
+            q.poll();
 
-            if(row == -1){
-                time++;
-                if(!queue.isEmpty()){
-                    queue.offer(new Pair(-1,-1));
+            for(int[] d : dir){
+                int nr = r+d[0];
+                int nc = c+d[1];
+                if(nr>=0&&nc>=0&&nr<ROW&&nc<COL&&grid[nr][nc] == 1&&vis[nr][nc]!=2){
+                    q.offer(new int[]{nr, nc, t+1});
+                    vis[nr][nc] = 2;
+                    cnt++;
                 }
             }
-            else{
-            for(int[] dir:directions){
-                int nRow = row+dir[0];
-                int nCol = col+dir[1];
-                if(nRow>=0&&nRow<ROWS&&
-                nCol>=0&&nCol<COLS){
-                    if(grid[nRow][nCol]==1){
-                    grid[nRow][nCol]=2;
-                    freshOranges--;
-                    queue.offer(new Pair(nRow, nCol));
-                    }
-                }
-            }
-            }
-
         }
-        return freshOranges==0?time:-1;
+
+        return cnt==freshOranges?time:-1;
     }
 }
