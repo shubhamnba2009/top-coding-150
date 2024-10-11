@@ -14,6 +14,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0383-ransom-note](https://github.com/shubhamnba2009/top-coding-150/tree/master/0383-ransom-note) |
 | [0409-longest-palindrome](https://github.com/shubhamnba2009/top-coding-150/tree/master/0409-longest-palindrome) |
+| [1023-time-based-key-value-store](https://github.com/shubhamnba2009/top-coding-150/tree/master/1023-time-based-key-value-store) |
 ## Stack
 |  |
 | ------- |
@@ -56,6 +57,7 @@
 | [0242-valid-anagram](https://github.com/shubhamnba2009/top-coding-150/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/shubhamnba2009/top-coding-150/tree/master/0383-ransom-note) |
 | [0409-longest-palindrome](https://github.com/shubhamnba2009/top-coding-150/tree/master/0409-longest-palindrome) |
+| [1023-time-based-key-value-store](https://github.com/shubhamnba2009/top-coding-150/tree/master/1023-time-based-key-value-store) |
 ## Linked List
 |  |
 | ------- |
@@ -142,6 +144,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/shubhamnba2009/top-coding-150/tree/master/0033-search-in-rotated-sorted-array) |
 | [0278-first-bad-version](https://github.com/shubhamnba2009/top-coding-150/tree/master/0278-first-bad-version) |
 | [0792-binary-search](https://github.com/shubhamnba2009/top-coding-150/tree/master/0792-binary-search) |
+| [1023-time-based-key-value-store](https://github.com/shubhamnba2009/top-coding-150/tree/master/1023-time-based-key-value-store) |
 ## Matrix
 |  |
 | ------- |
@@ -184,6 +187,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0208-implement-trie-prefix-tree) |
 | [0232-implement-queue-using-stacks](https://github.com/shubhamnba2009/top-coding-150/tree/master/0232-implement-queue-using-stacks) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [1023-time-based-key-value-store](https://github.com/shubhamnba2009/top-coding-150/tree/master/1023-time-based-key-value-store) |
 ## Queue
 |  |
 | ------- |
