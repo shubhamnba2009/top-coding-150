@@ -35,6 +35,7 @@
 | [0057-insert-interval](https://github.com/shubhamnba2009/top-coding-150/tree/master/0057-insert-interval) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/shubhamnba2009/top-coding-150/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/shubhamnba2009/top-coding-150/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0169-majority-element](https://github.com/shubhamnba2009/top-coding-150/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/shubhamnba2009/top-coding-150/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/shubhamnba2009/top-coding-150/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/shubhamnba2009/top-coding-150/tree/master/0213-house-robber-ii) |
@@ -53,6 +54,7 @@
 | [0076-minimum-window-substring](https://github.com/shubhamnba2009/top-coding-150/tree/master/0076-minimum-window-substring) |
 | [0133-clone-graph](https://github.com/shubhamnba2009/top-coding-150/tree/master/0133-clone-graph) |
 | [0141-linked-list-cycle](https://github.com/shubhamnba2009/top-coding-150/tree/master/0141-linked-list-cycle) |
+| [0169-majority-element](https://github.com/shubhamnba2009/top-coding-150/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/shubhamnba2009/top-coding-150/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/shubhamnba2009/top-coding-150/tree/master/0383-ransom-note) |
@@ -136,6 +138,7 @@
 | ------- |
 | [0015-3sum](https://github.com/shubhamnba2009/top-coding-150/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/shubhamnba2009/top-coding-150/tree/master/0056-merge-intervals) |
+| [0169-majority-element](https://github.com/shubhamnba2009/top-coding-150/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/shubhamnba2009/top-coding-150/tree/master/0242-valid-anagram) |
 | [1014-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/1014-k-closest-points-to-origin) |
 ## Binary Search
@@ -156,6 +159,7 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/shubhamnba2009/top-coding-150/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/shubhamnba2009/top-coding-150/tree/master/0169-majority-element) |
 | [1014-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/1014-k-closest-points-to-origin) |
 ## Binary Search Tree
 |  |
@@ -199,6 +203,7 @@
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/shubhamnba2009/top-coding-150/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/shubhamnba2009/top-coding-150/tree/master/0383-ransom-note) |
 ## Sliding Window
 |  |
