@@ -1,20 +1,17 @@
 class Solution {
     public int evalRPN(String[] tokens) {
-        if(tokens.length==1)
-            return Integer.valueOf(tokens[0]);
         Stack<Integer> st = new Stack<>();
-        for(String s:tokens){
-            if(!Character.isDigit(s.charAt(s.length()-1))){
-                int first = st.pop();
-                int second = st.pop();
-                if(s.charAt(0)=='+') st.add(first+second);
-                else if(s.charAt(0)=='-') st.add(second-first);
-                else if (s.charAt(0)=='*') st.add(first*second);
-                else st.add(second/first);
+        for(String t : tokens){
+            if(Character.isDigit(t.charAt(t.length()-1))){
+                st.add(Integer.valueOf(t));
             } else {
-                st.add(Integer.valueOf(s));
+                int fn = st.pop(), sn = st.pop();
+                if(t.charAt(0)=='+')    st.add(fn+sn);
+                else if(t.charAt(0)=='-')   st.add(sn-fn);
+                else if(t.charAt(0)=='/')   st.add(sn/fn);
+                else    st.add(sn*fn);
             }
         }
-        return Integer.valueOf(st.pop());
+        return st.pop();
     }
 }
