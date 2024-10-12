@@ -7,10 +7,10 @@ class Solution {
 
     public void combi(int idx, int[] candidates, int target, List<List<Integer>> res, List<Integer> ds){
         if(idx == candidates.length){
-        if(target == 0){
-            res.add(new ArrayList<>(ds));
-        }
-        return;
+            if(target==0){
+                res.add(new ArrayList<>(ds));
+            }
+            return;
         }
 
         if(target>=candidates[idx]){
@@ -18,6 +18,7 @@ class Solution {
             combi(idx, candidates, target-candidates[idx], res, ds);
             ds.remove(ds.size()-1);
         }
-        combi(idx+1, candidates, target, res, ds);
+
+        combi(idx+1, candidates, target, res, ds );
     }
 }
