@@ -20,6 +20,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/shubhamnba2009/top-coding-150/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/shubhamnba2009/top-coding-150/tree/master/0042-trapping-rain-water) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/shubhamnba2009/top-coding-150/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/shubhamnba2009/top-coding-150/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/shubhamnba2009/top-coding-150/tree/master/0232-implement-queue-using-stacks) |
@@ -30,6 +31,7 @@
 | [0015-3sum](https://github.com/shubhamnba2009/top-coding-150/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/shubhamnba2009/top-coding-150/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/shubhamnba2009/top-coding-150/tree/master/0039-combination-sum) |
+| [0042-trapping-rain-water](https://github.com/shubhamnba2009/top-coding-150/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/shubhamnba2009/top-coding-150/tree/master/0046-permutations) |
 | [0053-maximum-subarray](https://github.com/shubhamnba2009/top-coding-150/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/shubhamnba2009/top-coding-150/tree/master/0056-merge-intervals) |
@@ -75,6 +77,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/shubhamnba2009/top-coding-150/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/shubhamnba2009/top-coding-150/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/shubhamnba2009/top-coding-150/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/shubhamnba2009/top-coding-150/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -86,6 +89,7 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/shubhamnba2009/top-coding-150/tree/master/0015-3sum) |
+| [0042-trapping-rain-water](https://github.com/shubhamnba2009/top-coding-150/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/shubhamnba2009/top-coding-150/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/shubhamnba2009/top-coding-150/tree/master/0141-linked-list-cycle) |
 ## Tree
@@ -254,4 +258,8 @@
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/shubhamnba2009/top-coding-150/tree/master/0067-add-binary) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/shubhamnba2009/top-coding-150/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
