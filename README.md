@@ -38,6 +38,7 @@
 | [0053-maximum-subarray](https://github.com/shubhamnba2009/top-coding-150/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/shubhamnba2009/top-coding-150/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/shubhamnba2009/top-coding-150/tree/master/0057-insert-interval) |
+| [0075-sort-colors](https://github.com/shubhamnba2009/top-coding-150/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/shubhamnba2009/top-coding-150/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/shubhamnba2009/top-coding-150/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/shubhamnba2009/top-coding-150/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -96,6 +97,7 @@
 | ------- |
 | [0015-3sum](https://github.com/shubhamnba2009/top-coding-150/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/shubhamnba2009/top-coding-150/tree/master/0042-trapping-rain-water) |
+| [0075-sort-colors](https://github.com/shubhamnba2009/top-coding-150/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/shubhamnba2009/top-coding-150/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/shubhamnba2009/top-coding-150/tree/master/0141-linked-list-cycle) |
 | [0295-find-median-from-data-stream](https://github.com/shubhamnba2009/top-coding-150/tree/master/0295-find-median-from-data-stream) |
@@ -155,6 +157,7 @@
 | ------- |
 | [0015-3sum](https://github.com/shubhamnba2009/top-coding-150/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/shubhamnba2009/top-coding-150/tree/master/0056-merge-intervals) |
+| [0075-sort-colors](https://github.com/shubhamnba2009/top-coding-150/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/shubhamnba2009/top-coding-150/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/shubhamnba2009/top-coding-150/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/shubhamnba2009/top-coding-150/tree/master/0295-find-median-from-data-stream) |
