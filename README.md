@@ -94,6 +94,7 @@
 | [0042-trapping-rain-water](https://github.com/shubhamnba2009/top-coding-150/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/shubhamnba2009/top-coding-150/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/shubhamnba2009/top-coding-150/tree/master/0141-linked-list-cycle) |
+| [0295-find-median-from-data-stream](https://github.com/shubhamnba2009/top-coding-150/tree/master/0295-find-median-from-data-stream) |
 | [0345-reverse-vowels-of-a-string](https://github.com/shubhamnba2009/top-coding-150/tree/master/0345-reverse-vowels-of-a-string) |
 | [0908-middle-of-the-linked-list](https://github.com/shubhamnba2009/top-coding-150/tree/master/0908-middle-of-the-linked-list) |
 ## Tree
@@ -149,6 +150,7 @@
 | [0056-merge-intervals](https://github.com/shubhamnba2009/top-coding-150/tree/master/0056-merge-intervals) |
 | [0169-majority-element](https://github.com/shubhamnba2009/top-coding-150/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/shubhamnba2009/top-coding-150/tree/master/0242-valid-anagram) |
+| [0295-find-median-from-data-stream](https://github.com/shubhamnba2009/top-coding-150/tree/master/0295-find-median-from-data-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/1014-k-closest-points-to-origin) |
 ## Binary Search
 |  |
@@ -189,6 +191,7 @@
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/shubhamnba2009/top-coding-150/tree/master/0295-find-median-from-data-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/1014-k-closest-points-to-origin) |
 ## Quickselect
 |  |
@@ -200,6 +203,7 @@
 | [0155-min-stack](https://github.com/shubhamnba2009/top-coding-150/tree/master/0155-min-stack) |
 | [0208-implement-trie-prefix-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0208-implement-trie-prefix-tree) |
 | [0232-implement-queue-using-stacks](https://github.com/shubhamnba2009/top-coding-150/tree/master/0232-implement-queue-using-stacks) |
+| [0295-find-median-from-data-stream](https://github.com/shubhamnba2009/top-coding-150/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [1023-time-based-key-value-store](https://github.com/shubhamnba2009/top-coding-150/tree/master/1023-time-based-key-value-store) |
 ## Queue
@@ -266,4 +270,8 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/shubhamnba2009/top-coding-150/tree/master/0042-trapping-rain-water) |
+## Data Stream
+|  |
+| ------- |
+| [0295-find-median-from-data-stream](https://github.com/shubhamnba2009/top-coding-150/tree/master/0295-find-median-from-data-stream) |
 <!---LeetCode Topics End-->
