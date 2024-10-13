@@ -107,6 +107,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0543-diameter-of-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0543-diameter-of-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -119,6 +120,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0543-diameter-of-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0543-diameter-of-binary-tree) |
 | [0733-flood-fill](https://github.com/shubhamnba2009/top-coding-150/tree/master/0733-flood-fill) |
 ## Breadth-First Search
 |  |
@@ -143,6 +145,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0543-diameter-of-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0543-diameter-of-binary-tree) |
 ## Sorting
 |  |
 | ------- |
