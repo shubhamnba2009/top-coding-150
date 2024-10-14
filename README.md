@@ -53,6 +53,7 @@
 | [0792-binary-search](https://github.com/shubhamnba2009/top-coding-150/tree/master/0792-binary-search) |
 | [1014-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/shubhamnba2009/top-coding-150/tree/master/1036-rotting-oranges) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/shubhamnba2009/top-coding-150/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Hash Table
 |  |
 | ------- |
@@ -203,6 +204,7 @@
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/shubhamnba2009/top-coding-150/tree/master/0295-find-median-from-data-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/1014-k-closest-points-to-origin) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/shubhamnba2009/top-coding-150/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Quickselect
 |  |
 | ------- |
@@ -261,6 +263,7 @@
 |  |
 | ------- |
 | [0409-longest-palindrome](https://github.com/shubhamnba2009/top-coding-150/tree/master/0409-longest-palindrome) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/shubhamnba2009/top-coding-150/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Union Find
 |  |
 | ------- |
