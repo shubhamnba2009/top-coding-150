@@ -3,22 +3,24 @@ class Solution {
         int[] left = new int[height.length];
         int[] right = new int[height.length];
 
-        int maxh = Integer.MIN_VALUE;
-        for(int i = 0;i<height.length;i++){
-            maxh = Math.max(maxh, height[i]);
-            left[i] = maxh;
+        int max = 0;
+
+        for(int i = 0;i<height.length; i++){
+            max = Math.max(max, height[i]);
+            left[i] = max;
         }
-        maxh = Integer.MIN_VALUE;
-        for(int i = height.length-1;i>=0;i--){
-            maxh = Math.max(maxh, height[i]);
-            right[i] = maxh;
+        max = 0;
+        for(int i = height.length-1;i>=0; i--){
+            max = Math.max(max, height[i]);
+            right[i] = max;
         }
 
         int res = 0;
 
         for(int i = 0;i<height.length;i++){
-            res = res+Math.min(left[i], right[i])-height[i];
+            res+=Math.min(left[i], right[i]) - height[i];
         }
+
         return res;
     }
 }
