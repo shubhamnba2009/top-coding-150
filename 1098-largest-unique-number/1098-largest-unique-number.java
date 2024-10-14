@@ -1,15 +1,15 @@
 class Solution {
     public int largestUniqueNumber(int[] nums) {
-        HashMap<Integer, Integer> map = new HashMap<>();
+        int[] map = new int[2001];
 
         for(int n:nums){
-            map.put(n, map.getOrDefault(n, 0)+1);
+            map[n]++;
         }
 
         int res = -1;
 
-        for(int key : map.keySet()){
-            if(map.get(key)==1) res = Math.max(res, key);
+        for(int i = 1;i<2001;i++){
+            if(map[i]==1)   res = Math.max(res, i);
         }
         return res;
     }
