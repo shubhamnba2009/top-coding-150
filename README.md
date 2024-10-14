@@ -54,6 +54,7 @@
 | [1014-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/shubhamnba2009/top-coding-150/tree/master/1036-rotting-oranges) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/shubhamnba2009/top-coding-150/tree/master/2616-maximal-score-after-applying-k-operations) |
+| [3101-maximum-coins-heroes-can-collect](https://github.com/shubhamnba2009/top-coding-150/tree/master/3101-maximum-coins-heroes-can-collect) |
 ## Hash Table
 |  |
 | ------- |
@@ -104,6 +105,7 @@
 | [0295-find-median-from-data-stream](https://github.com/shubhamnba2009/top-coding-150/tree/master/0295-find-median-from-data-stream) |
 | [0345-reverse-vowels-of-a-string](https://github.com/shubhamnba2009/top-coding-150/tree/master/0345-reverse-vowels-of-a-string) |
 | [0908-middle-of-the-linked-list](https://github.com/shubhamnba2009/top-coding-150/tree/master/0908-middle-of-the-linked-list) |
+| [3101-maximum-coins-heroes-can-collect](https://github.com/shubhamnba2009/top-coding-150/tree/master/3101-maximum-coins-heroes-can-collect) |
 ## Tree
 |  |
 | ------- |
@@ -163,6 +165,7 @@
 | [0242-valid-anagram](https://github.com/shubhamnba2009/top-coding-150/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/shubhamnba2009/top-coding-150/tree/master/0295-find-median-from-data-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/1014-k-closest-points-to-origin) |
+| [3101-maximum-coins-heroes-can-collect](https://github.com/shubhamnba2009/top-coding-150/tree/master/3101-maximum-coins-heroes-can-collect) |
 ## Binary Search
 |  |
 | ------- |
@@ -170,6 +173,7 @@
 | [0278-first-bad-version](https://github.com/shubhamnba2009/top-coding-150/tree/master/0278-first-bad-version) |
 | [0792-binary-search](https://github.com/shubhamnba2009/top-coding-150/tree/master/0792-binary-search) |
 | [1023-time-based-key-value-store](https://github.com/shubhamnba2009/top-coding-150/tree/master/1023-time-based-key-value-store) |
+| [3101-maximum-coins-heroes-can-collect](https://github.com/shubhamnba2009/top-coding-150/tree/master/3101-maximum-coins-heroes-can-collect) |
 ## Matrix
 |  |
 | ------- |
@@ -254,6 +258,7 @@
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/shubhamnba2009/top-coding-150/tree/master/0238-product-of-array-except-self) |
+| [3101-maximum-coins-heroes-can-collect](https://github.com/shubhamnba2009/top-coding-150/tree/master/3101-maximum-coins-heroes-can-collect) |
 ## Memoization
 |  |
 | ------- |
