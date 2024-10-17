@@ -5,15 +5,18 @@ class TimeMap {
     }
     
     public void set(String key, String value, int timestamp) {
-        map.putIfAbsent(key, new TreeMap<Integer, String>());
+        map.putIfAbsent(key, new TreeMap<>((a,b)->Integer.compare(a, b)));
         map.get(key).put(timestamp, value);
     }
     
     public String get(String key, int timestamp) {
-        if(!map.containsKey(key)) return "";
-        Integer floorKey = map.get(key).floorKey(timestamp);
-
-        return floorKey == null?"":map.get(key).get(floorKey);
+        if(map.containsKey(key)){
+            Integer tKey = map.get(key).floorKey(timestamp);
+            if(tKey!=null){
+                return map.get(key).get(tKey);
+            }
+        }
+        return "";
     }
 }
 
