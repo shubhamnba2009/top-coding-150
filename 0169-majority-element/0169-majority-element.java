@@ -1,17 +1,18 @@
 class Solution {
     public int majorityElement(int[] nums) {
-        int res = nums[0], cnt = 0;
+        int currMaj = nums[0], cnt = 0;
 
         for(int n:nums){
-            if(res==n)   cnt++;
+            if(currMaj == n) cnt++;
             else{
                 cnt--;
                 if(cnt<0){
+                    currMaj = n;
                     cnt = 0;
-                    res=n;
                 }
             }
         }
-        return res;
+        return currMaj;
+
     }
 }
