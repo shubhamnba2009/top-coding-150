@@ -36,6 +36,7 @@
 | [0042-trapping-rain-water](https://github.com/shubhamnba2009/top-coding-150/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/shubhamnba2009/top-coding-150/tree/master/0046-permutations) |
 | [0053-maximum-subarray](https://github.com/shubhamnba2009/top-coding-150/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/shubhamnba2009/top-coding-150/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/shubhamnba2009/top-coding-150/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/shubhamnba2009/top-coding-150/tree/master/0057-insert-interval) |
 | [0075-sort-colors](https://github.com/shubhamnba2009/top-coding-150/tree/master/0075-sort-colors) |
@@ -182,6 +183,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/shubhamnba2009/top-coding-150/tree/master/0054-spiral-matrix) |
 | [0200-number-of-islands](https://github.com/shubhamnba2009/top-coding-150/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/shubhamnba2009/top-coding-150/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/shubhamnba2009/top-coding-150/tree/master/0733-flood-fill) |
@@ -290,6 +292,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/shubhamnba2009/top-coding-150/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/shubhamnba2009/top-coding-150/tree/master/0067-add-binary) |
 ## Monotonic Stack
 |  |
