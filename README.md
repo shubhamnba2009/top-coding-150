@@ -40,6 +40,7 @@
 | [0056-merge-intervals](https://github.com/shubhamnba2009/top-coding-150/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/shubhamnba2009/top-coding-150/tree/master/0057-insert-interval) |
 | [0075-sort-colors](https://github.com/shubhamnba2009/top-coding-150/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/shubhamnba2009/top-coding-150/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/shubhamnba2009/top-coding-150/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/shubhamnba2009/top-coding-150/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/shubhamnba2009/top-coding-150/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -285,10 +286,12 @@
 | ------- |
 | [0039-combination-sum](https://github.com/shubhamnba2009/top-coding-150/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/shubhamnba2009/top-coding-150/tree/master/0046-permutations) |
+| [0078-subsets](https://github.com/shubhamnba2009/top-coding-150/tree/master/0078-subsets) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/shubhamnba2009/top-coding-150/tree/master/0067-add-binary) |
+| [0078-subsets](https://github.com/shubhamnba2009/top-coding-150/tree/master/0078-subsets) |
 ## Simulation
 |  |
 | ------- |
