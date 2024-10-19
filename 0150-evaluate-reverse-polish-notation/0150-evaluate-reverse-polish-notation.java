@@ -1,17 +1,36 @@
 class Solution {
     public int evalRPN(String[] tokens) {
         Stack<Integer> st = new Stack<>();
-        for(String t : tokens){
-            if(Character.isDigit(t.charAt(t.length()-1))){
-                st.add(Integer.valueOf(t));
+        Function<Stack<Integer>, Integer> add = stck->{
+            int nums1 = stck.pop(); int nums2= stck.pop();
+            return nums2+nums1;
+        };
+        Function<Stack<Integer>, Integer> minus = stck->{
+            int nums1 = stck.pop(); int nums2= stck.pop();
+            return nums2-nums1;
+        };
+        Function<Stack<Integer>, Integer> div = stck->{
+            int nums1 = stck.pop(); int nums2= stck.pop();
+            return nums2/nums1;
+        };
+        Function<Stack<Integer>, Integer> mul = stck->{
+            int nums1 = stck.pop(); int nums2= stck.pop();
+            return nums2*nums1;
+        };
+        for(String str : tokens) {
+            if(str.equals("+")){
+                st.add(add.apply(st));
+            } else if (str.equals("-")){
+                st.add(minus.apply(st));
+            } else if (str.equals("*")){
+                st.add(mul.apply(st));
+            } else if (str.equals("/")){
+                st.add(div.apply(st));
             } else {
-                int fn = st.pop(), sn = st.pop();
-                if(t.charAt(0)=='+')    st.add(fn+sn);
-                else if(t.charAt(0)=='-')   st.add(sn-fn);
-                else if(t.charAt(0)=='/')   st.add(sn/fn);
-                else    st.add(sn*fn);
+                st.add(Integer.valueOf(str));
             }
         }
         return st.pop();
+
     }
 }
