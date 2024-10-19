@@ -15,15 +15,15 @@
  */
 class Solution {
     public boolean isValidBST(TreeNode root) {
-        return validate(root, null, null);
+       return  isValidHelper(root, null, null);
     }
 
-    public boolean validate(TreeNode root, Integer low, Integer high){
-        if(root== null)
+    private boolean isValidHelper(TreeNode root, Integer left, Integer right) {
+        if(root==null)
             return true;
-        if((low!=null&&root.val<=low)||(high!=null&&high<=root.val))
-            return false;
-        return validate(root.left, low, root.val)&&validate(root.right, root.val, high);
+        if(left!=null && root.val<=left) return false;
+        if(right!=null && root.val>=right) return false;
 
+        return isValidHelper(root.left, left, root.val) && isValidHelper(root.right, root.val, right); 
     }
 }
