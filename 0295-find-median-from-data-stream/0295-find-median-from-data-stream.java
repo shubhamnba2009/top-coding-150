@@ -1,17 +1,17 @@
 class MedianFinder {
-    Queue<Integer> hi;
     Queue<Integer> lo;
+    Queue<Integer> hi;
     public MedianFinder() {
+        lo = new PriorityQueue<>((a,b)-> Integer.compare(b, a));
         hi = new PriorityQueue<>();
-        lo = new PriorityQueue<>((a,b)->Integer.compare(b, a));
     }
     
     public void addNum(int num) {
         lo.add(num);
         hi.add(lo.poll());
-
-        if(lo.size()<hi.size())
+        if(lo.size()<hi.size()){
             lo.add(hi.poll());
+        }
     }
     
     public double findMedian() {
