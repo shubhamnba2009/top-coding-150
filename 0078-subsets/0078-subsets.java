@@ -6,12 +6,13 @@ class Solution {
         return res;
     }
 
-    public void backtrack(int[] nums, int idx, List<List<Integer>> res, List<Integer> ds){
+    private void backtrack(int[] nums, int idx, List<List<Integer>> res, List<Integer> ds){
         res.add(new ArrayList<>(ds));
-        for(int i = idx; i<nums.length;i++){
+
+        for(int i = idx;i<nums.length;i++){
             ds.add(nums[i]);
             backtrack(nums, i+1, res, ds);
             ds.remove(ds.size()-1);
-            }
         }
+    }
 }
