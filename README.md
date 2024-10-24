@@ -80,6 +80,7 @@
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/shubhamnba2009/top-coding-150/tree/master/0021-merge-two-sorted-lists) |
+| [0023-merge-k-sorted-lists](https://github.com/shubhamnba2009/top-coding-150/tree/master/0023-merge-k-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/shubhamnba2009/top-coding-150/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/shubhamnba2009/top-coding-150/tree/master/0206-reverse-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/shubhamnba2009/top-coding-150/tree/master/0908-middle-of-the-linked-list) |
@@ -199,6 +200,7 @@
 ## Divide and Conquer
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/shubhamnba2009/top-coding-150/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/shubhamnba2009/top-coding-150/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/shubhamnba2009/top-coding-150/tree/master/0169-majority-element) |
 | [1014-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/1014-k-closest-points-to-origin) |
@@ -221,6 +223,7 @@
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/shubhamnba2009/top-coding-150/tree/master/0023-merge-k-sorted-lists) |
 | [0295-find-median-from-data-stream](https://github.com/shubhamnba2009/top-coding-150/tree/master/0295-find-median-from-data-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/1014-k-closest-points-to-origin) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/shubhamnba2009/top-coding-150/tree/master/2616-maximal-score-after-applying-k-operations) |
@@ -312,4 +315,8 @@
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/shubhamnba2009/top-coding-150/tree/master/0295-find-median-from-data-stream) |
+## Merge Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/shubhamnba2009/top-coding-150/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
