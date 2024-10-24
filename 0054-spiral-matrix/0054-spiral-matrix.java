@@ -1,19 +1,20 @@
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> res = new ArrayList<>();
-        int m = matrix.length, n = matrix[0].length;
-        spiral(matrix, m, n, 0, -1, 0, 1, res);
+
+        spiral(matrix, res, 0, -1, 0, 1, matrix.length, matrix[0].length);
+
         return res;
     }
 
-    public void spiral(int[][] matrix, int m, int n, int r, int c, int dr, int dc, List<Integer> res){
-        if(m == 0|| n==0)   return;
+    private void spiral(int[][] matrix, List<Integer> res, int r, int c, int dr, int dc, int m, int n){
+        if(m == 0 || n==0) return;
 
-        for(int i = 0;i<n;i++){
+        for(int j = 0;j<n;j++){
             r = r+dr;
             c = c+dc;
             res.add(matrix[r][c]);
         }
-        spiral(matrix, n, m-1, r, c, dc, -dr, res);
+        spiral(matrix, res, r, c, dc, -dr, n, m-1);
     }
 }
