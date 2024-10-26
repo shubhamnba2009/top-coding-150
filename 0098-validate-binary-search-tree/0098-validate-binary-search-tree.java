@@ -15,15 +15,17 @@
  */
 class Solution {
     public boolean isValidBST(TreeNode root) {
-       return  isValidHelper(root, null, null);
+        return isValid(root, null, null);
     }
 
-    private boolean isValidHelper(TreeNode root, Integer left, Integer right) {
-        if(root==null)
+    private boolean isValid(TreeNode root, Integer left, Integer right){
+        if(root == null)
             return true;
-        if(left!=null && root.val<=left) return false;
-        if(right!=null && root.val>=right) return false;
+        
+        if(right != null&&right<=root.val) return false;
+        if(left != null && left>=root.val) return false;
 
-        return isValidHelper(root.left, left, root.val) && isValidHelper(root.right, root.val, right); 
+        return isValid(root.left, left, root.val) && isValid(root.right, root.val, right);
+
     }
 }
