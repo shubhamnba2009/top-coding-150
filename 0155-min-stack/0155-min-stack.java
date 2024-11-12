@@ -5,14 +5,14 @@ class MinStack {
     }
     
     public void push(int val) {
-        if(st.isEmpty())    st.add(new int[]{val, val});
-        else   st.add(new int[]{val, val<st.peek()[1]?val:st.peek()[1]});
+        if(st.isEmpty())
+            st.push(new int[]{val, val});
+        else
+        st.push(new int[]{val, Math.min(st.peek()[1], val)});
     }
     
     public void pop() {
-        if(!st.isEmpty()){
-            st.pop();
-        }
+        st.pop();
     }
     
     public int top() {
