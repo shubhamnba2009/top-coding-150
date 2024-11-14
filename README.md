@@ -58,6 +58,7 @@
 | [1014-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/shubhamnba2009/top-coding-150/tree/master/1036-rotting-oranges) |
 | [1098-largest-unique-number](https://github.com/shubhamnba2009/top-coding-150/tree/master/1098-largest-unique-number) |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/shubhamnba2009/top-coding-150/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/shubhamnba2009/top-coding-150/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [3101-maximum-coins-heroes-can-collect](https://github.com/shubhamnba2009/top-coding-150/tree/master/3101-maximum-coins-heroes-can-collect) |
 ## Hash Table
@@ -89,6 +90,7 @@
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/shubhamnba2009/top-coding-150/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/shubhamnba2009/top-coding-150/tree/master/0206-reverse-linked-list) |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/shubhamnba2009/top-coding-150/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -216,6 +218,7 @@
 | [0070-climbing-stairs](https://github.com/shubhamnba2009/top-coding-150/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/shubhamnba2009/top-coding-150/tree/master/0150-evaluate-reverse-polish-notation) |
 | [1014-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/1014-k-closest-points-to-origin) |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/shubhamnba2009/top-coding-150/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Geometry
 |  |
 | ------- |
@@ -244,6 +247,7 @@
 |  |
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/shubhamnba2009/top-coding-150/tree/master/0232-implement-queue-using-stacks) |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/shubhamnba2009/top-coding-150/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Interactive
 |  |
 | ------- |
@@ -307,6 +311,7 @@
 | ------- |
 | [0054-spiral-matrix](https://github.com/shubhamnba2009/top-coding-150/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/shubhamnba2009/top-coding-150/tree/master/0067-add-binary) |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/shubhamnba2009/top-coding-150/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Monotonic Stack
 |  |
 | ------- |
