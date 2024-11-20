@@ -17,6 +17,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0345-reverse-vowels-of-a-string](https://github.com/shubhamnba2009/top-coding-150/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/shubhamnba2009/top-coding-150/tree/master/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/shubhamnba2009/top-coding-150/tree/master/0387-first-unique-character-in-a-string) |
 | [0409-longest-palindrome](https://github.com/shubhamnba2009/top-coding-150/tree/master/0409-longest-palindrome) |
 | [1023-time-based-key-value-store](https://github.com/shubhamnba2009/top-coding-150/tree/master/1023-time-based-key-value-store) |
 ## Stack
@@ -74,6 +75,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/shubhamnba2009/top-coding-150/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/shubhamnba2009/top-coding-150/tree/master/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/shubhamnba2009/top-coding-150/tree/master/0387-first-unique-character-in-a-string) |
 | [0409-longest-palindrome](https://github.com/shubhamnba2009/top-coding-150/tree/master/0409-longest-palindrome) |
 | [1023-time-based-key-value-store](https://github.com/shubhamnba2009/top-coding-150/tree/master/1023-time-based-key-value-store) |
 | [1098-largest-unique-number](https://github.com/shubhamnba2009/top-coding-150/tree/master/1098-largest-unique-number) |
@@ -247,6 +249,7 @@
 |  |
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/shubhamnba2009/top-coding-150/tree/master/0232-implement-queue-using-stacks) |
+| [0387-first-unique-character-in-a-string](https://github.com/shubhamnba2009/top-coding-150/tree/master/0387-first-unique-character-in-a-string) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/shubhamnba2009/top-coding-150/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Interactive
 |  |
@@ -257,6 +260,7 @@
 | ------- |
 | [0169-majority-element](https://github.com/shubhamnba2009/top-coding-150/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/shubhamnba2009/top-coding-150/tree/master/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/shubhamnba2009/top-coding-150/tree/master/0387-first-unique-character-in-a-string) |
 ## Sliding Window
 |  |
 | ------- |
