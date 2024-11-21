@@ -59,6 +59,7 @@
 | [1014-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/shubhamnba2009/top-coding-150/tree/master/1036-rotting-oranges) |
 | [1098-largest-unique-number](https://github.com/shubhamnba2009/top-coding-150/tree/master/1098-largest-unique-number) |
+| [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/shubhamnba2009/top-coding-150/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/shubhamnba2009/top-coding-150/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/shubhamnba2009/top-coding-150/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [3101-maximum-coins-heroes-can-collect](https://github.com/shubhamnba2009/top-coding-150/tree/master/3101-maximum-coins-heroes-can-collect) |
@@ -284,6 +285,7 @@
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/shubhamnba2009/top-coding-150/tree/master/0238-product-of-array-except-self) |
+| [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/shubhamnba2009/top-coding-150/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
 | [3101-maximum-coins-heroes-can-collect](https://github.com/shubhamnba2009/top-coding-150/tree/master/3101-maximum-coins-heroes-can-collect) |
 ## Memoization
 |  |
