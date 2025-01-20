@@ -7,6 +7,7 @@ class Solution {
                 return new int[]{map.get(target-nums[i]), i};
             map.put(nums[i], i);
         }
+
         throw new IllegalArgumentException();
     }
 }
