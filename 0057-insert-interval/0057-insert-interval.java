@@ -1,21 +1,25 @@
 class Solution {
     public int[][] insert(int[][] intervals, int[] newInterval) {
-        List<int[]> ll = new ArrayList<>();
-        int i = 0;
+        List<int[]> result = new ArrayList<>();
 
-        while(i<intervals.length&&intervals[i][1]<newInterval[0])
-            ll.add(intervals[i++]);
-        
-        while(i<intervals.length&&intervals[i][0]<=newInterval[1]){
-            newInterval[0] = Math.min(newInterval[0], intervals[i][0]);
-            newInterval[1] = Math.max(newInterval[1], intervals[i][1]);
-            i++;
-        }
-        ll.add(newInterval);
-        while(i<intervals.length){
-            ll.add(intervals[i++]);
+        int cnt = 0, len = intervals.length;
+
+        while(cnt<len && intervals[cnt][1]<newInterval[0]){
+            result.add(intervals[cnt++]);
         }
 
-        return ll.toArray(new int[ll.size()][]);
+        while(cnt<len && newInterval[1] >= intervals[cnt][0]){
+            newInterval[0] = Math.min(newInterval[0], intervals[cnt][0]);
+            newInterval[1] = Math.max(newInterval[1], intervals[cnt][1]);
+            cnt++;
+        }
+
+        result.add(newInterval);
+
+        while(cnt<len){
+            result.add(intervals[cnt++]);
+        }
+
+        return result.toArray(new int[result.size()][]);
     }
 }
