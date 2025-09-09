@@ -13,7 +13,7 @@ class Solution {
         ListNode head = new ListNode(-1);
         ListNode dummy = head;
 
-        while(list1!=null && list2!=null){
+        while(list1!=null&&list2!=null){
             if(list1.val>list2.val){
                 head.next = list2;
                 list2 = list2.next;
@@ -23,11 +23,11 @@ class Solution {
             }
             head = head.next;
         }
-
-        if(list1!=null) head.next = list1;
-        else head.next = list2;
+        if(list1 != null)
+            head.next = list1;
+        if(list2 != null)
+            head.next = list2;
 
         return dummy.next;
-
     }
 }
