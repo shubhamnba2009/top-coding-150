@@ -82,6 +82,7 @@
 | [0409-longest-palindrome](https://github.com/shubhamnba2009/top-coding-150/tree/master/0409-longest-palindrome) |
 | [1023-time-based-key-value-store](https://github.com/shubhamnba2009/top-coding-150/tree/master/1023-time-based-key-value-store) |
 | [1098-largest-unique-number](https://github.com/shubhamnba2009/top-coding-150/tree/master/1098-largest-unique-number) |
+| [1797-design-authentication-manager](https://github.com/shubhamnba2009/top-coding-150/tree/master/1797-design-authentication-manager) |
 ## Linked List
 |  |
 | ------- |
@@ -91,6 +92,7 @@
 | [0206-reverse-linked-list](https://github.com/shubhamnba2009/top-coding-150/tree/master/0206-reverse-linked-list) |
 | [0859-design-circular-deque](https://github.com/shubhamnba2009/top-coding-150/tree/master/0859-design-circular-deque) |
 | [0908-middle-of-the-linked-list](https://github.com/shubhamnba2009/top-coding-150/tree/master/0908-middle-of-the-linked-list) |
+| [1797-design-authentication-manager](https://github.com/shubhamnba2009/top-coding-150/tree/master/1797-design-authentication-manager) |
 ## Recursion
 |  |
 | ------- |
@@ -252,6 +254,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shubhamnba2009/top-coding-150/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0859-design-circular-deque](https://github.com/shubhamnba2009/top-coding-150/tree/master/0859-design-circular-deque) |
 | [1023-time-based-key-value-store](https://github.com/shubhamnba2009/top-coding-150/tree/master/1023-time-based-key-value-store) |
+| [1797-design-authentication-manager](https://github.com/shubhamnba2009/top-coding-150/tree/master/1797-design-authentication-manager) |
 ## Queue
 |  |
 | ------- |
@@ -337,4 +340,8 @@
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/shubhamnba2009/top-coding-150/tree/master/0023-merge-k-sorted-lists) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [1797-design-authentication-manager](https://github.com/shubhamnba2009/top-coding-150/tree/master/1797-design-authentication-manager) |
 <!---LeetCode Topics End-->
