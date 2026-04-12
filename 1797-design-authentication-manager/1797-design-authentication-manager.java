@@ -1,46 +1,74 @@
 class AuthenticationManager {
-    int timeToLive;
-    class Pair{
-        String tokenId;
-        int expireTime;
 
-        public Pair(String tokenId,int expireTime){
-            this.tokenId=tokenId;
-            this.expireTime=expireTime;
+    private int timeToLive;
+    private final HashMap<String, Node> tokenToTtl;
+    private Node dummyHead;
+    private Node dummyTail;
 
-        }  
-    }
-    Queue<Pair> q = new PriorityQueue<>((Pair p1,Pair p2)->p1.expireTime-p2.expireTime);
-
-    Map<String,Integer> map = new HashMap<>();    
     public AuthenticationManager(int timeToLive) {
-        this.timeToLive=timeToLive;
+        this.timeToLive = timeToLive;
+        tokenToTtl = new HashMap<>();
+        dummyHead = new Node("InvalidHeaderToken", -1);
+        dummyTail = new Node("InvalidTailToken", -1);
+        dummyHead.next = dummyTail;
+        dummyTail.prev = dummyHead;
     }
     
     public void generate(String tokenId, int currentTime) {
-        if(!map.containsKey(tokenId)){
-            q.offer(new Pair(tokenId,currentTime+timeToLive));
-        }
-        map.put(tokenId,currentTime+timeToLive);
+        Node node = new Node(tokenId, currentTime + timeToLive);
+        tokenToTtl.put(tokenId, node);
+        add(node);
+    }
+
+    private void add(Node node){
+        Node next = dummyHead.next;
+        dummyHead.next = node;
+        node.next = next;
+        node.prev = dummyHead;
+        next.prev = node;
     }
     
-    public void renew(String tokenId, int currentTime) {
-         if(map.containsKey(tokenId) && map.get(tokenId)>currentTime){
-              map.put(tokenId,currentTime+timeToLive);
-         }    
+    private void remove(Node node){
+        node.prev.next = node.next;
+        node.next.prev = node.prev;
+    }
 
+    public void renew(String tokenId, int currentTime) {
+        Node node = tokenToTtl.get(tokenId);
+        if (node == null) return;
+        remove(node);
+        if (node.expiryTime <= currentTime){
+            tokenToTtl.remove(tokenId); //remove as expired
+            return; //don't renew as expired
+        }
+        node = new Node(tokenId, currentTime + timeToLive);
+        tokenToTtl.put(tokenId, node);
+        add(node);
     }
     
     public int countUnexpiredTokens(int currentTime) {
-        while(!q.isEmpty() && q.peek().expireTime<=currentTime){
-            Pair p = q.poll();
-            if(map.get(p.tokenId)>p.expireTime){
-                q.offer(new Pair(p.tokenId,map.get(p.tokenId)));
-            }else{
-                map.remove(p.tokenId);
-            }
+        Node curr = dummyTail.prev;
+        while (curr != dummyHead && curr.expiryTime <= currentTime){
+            tokenToTtl.remove(curr.tokenId); //remove as expired
+            remove(curr);
+            curr = curr.prev;
         }
-        return q.size();
+        return tokenToTtl.size();
+    }
+}
+
+class Node{
+    String tokenId;
+    int expiryTime;
+    Node prev;
+    Node next;
+
+
+    Node(String tokenId, int expiryTime){
+        this.tokenId = tokenId;
+        this.expiryTime = expiryTime;
+        this.prev = null;
+        this.next = null;
     }
 }
 
