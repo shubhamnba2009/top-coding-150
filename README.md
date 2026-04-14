@@ -21,6 +21,7 @@
 | [0409-longest-palindrome](https://github.com/shubhamnba2009/top-coding-150/tree/master/0409-longest-palindrome) |
 | [0647-palindromic-substrings](https://github.com/shubhamnba2009/top-coding-150/tree/master/0647-palindromic-substrings) |
 | [1023-time-based-key-value-store](https://github.com/shubhamnba2009/top-coding-150/tree/master/1023-time-based-key-value-store) |
+| [2942-find-words-containing-character](https://github.com/shubhamnba2009/top-coding-150/tree/master/2942-find-words-containing-character) |
 ## Stack
 |  |
 | ------- |
@@ -64,6 +65,7 @@
 | [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/shubhamnba2009/top-coding-150/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/shubhamnba2009/top-coding-150/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/shubhamnba2009/top-coding-150/tree/master/2616-maximal-score-after-applying-k-operations) |
+| [2942-find-words-containing-character](https://github.com/shubhamnba2009/top-coding-150/tree/master/2942-find-words-containing-character) |
 | [3101-maximum-coins-heroes-can-collect](https://github.com/shubhamnba2009/top-coding-150/tree/master/3101-maximum-coins-heroes-can-collect) |
 ## Hash Table
 |  |
