@@ -1,26 +1,27 @@
 class Solution {
     public int[][] updateMatrix(int[][] mat) {
-        int m = mat.length, n = mat[0].length;
-
-        for(int i = 0;i<m;i++) {
-            for(int j = 0;j<n;j++){
-                int minVal = m*n;
+        int m = mat.length;
+        int n = mat[0].length;
+        for(int i = 0;i<mat.length;i++){
+            for(int j = 0;j<mat[0].length;j++){
                 if(mat[i][j]==0) continue;
-                if(i>0) minVal = Math.min(minVal, mat[i-1][j]);
-                if(j>0) minVal = Math.min(minVal, mat[i][j-1]);
+                int minNeigh = m*n;
 
-                mat[i][j] = 1+minVal;
+                if(i>0) minNeigh = Math.min(mat[i-1][j], minNeigh);
+                if(j>0) minNeigh = Math.min(mat[i][j-1], minNeigh);
+
+                mat[i][j] = minNeigh+1;
             }
         }
-
-        for(int i = m-1;i>=0;i--){
-            for(int j = n-1;j>=0;j--){
-                int minVal = m*n;
+        for(int i = mat.length-1;i>=0;i--){
+            for(int j = mat[0].length-1;j>=0;j--){
                 if(mat[i][j]==0) continue;
-                if(i<m-1) minVal = Math.min(minVal, mat[i+1][j]);
-                if(j<n-1) minVal = Math.min(minVal, mat[i][j+1]);
+                int minNeigh = m*n;
 
-                mat[i][j] = Math.min(mat[i][j], 1+minVal);
+                if(i<mat.length-1) minNeigh = Math.min(mat[i+1][j], minNeigh);
+                if(j<mat[0].length-1) minNeigh = Math.min(mat[i][j+1], minNeigh);
+
+                mat[i][j] = Math.min(minNeigh+1, mat[i][j]);
             }
         }
 
