@@ -59,6 +59,7 @@
 | [0733-flood-fill](https://github.com/shubhamnba2009/top-coding-150/tree/master/0733-flood-fill) |
 | [0792-binary-search](https://github.com/shubhamnba2009/top-coding-150/tree/master/0792-binary-search) |
 | [0859-design-circular-deque](https://github.com/shubhamnba2009/top-coding-150/tree/master/0859-design-circular-deque) |
+| [0973-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/shubhamnba2009/top-coding-150/tree/master/1036-rotting-oranges) |
 | [1098-largest-unique-number](https://github.com/shubhamnba2009/top-coding-150/tree/master/1098-largest-unique-number) |
@@ -192,6 +193,7 @@
 | [0169-majority-element](https://github.com/shubhamnba2009/top-coding-150/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/shubhamnba2009/top-coding-150/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/shubhamnba2009/top-coding-150/tree/master/0295-find-median-from-data-stream) |
+| [0973-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/1014-k-closest-points-to-origin) |
 | [1098-largest-unique-number](https://github.com/shubhamnba2009/top-coding-150/tree/master/1098-largest-unique-number) |
 | [3101-maximum-coins-heroes-can-collect](https://github.com/shubhamnba2009/top-coding-150/tree/master/3101-maximum-coins-heroes-can-collect) |
@@ -217,6 +219,7 @@
 | [0023-merge-k-sorted-lists](https://github.com/shubhamnba2009/top-coding-150/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/shubhamnba2009/top-coding-150/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/shubhamnba2009/top-coding-150/tree/master/0169-majority-element) |
+| [0973-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/1014-k-closest-points-to-origin) |
 ## Binary Search Tree
 |  |
@@ -229,22 +232,26 @@
 | [0067-add-binary](https://github.com/shubhamnba2009/top-coding-150/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/shubhamnba2009/top-coding-150/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/shubhamnba2009/top-coding-150/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0973-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/1014-k-closest-points-to-origin) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/shubhamnba2009/top-coding-150/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Geometry
 |  |
 | ------- |
+| [0973-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/1014-k-closest-points-to-origin) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/shubhamnba2009/top-coding-150/tree/master/0023-merge-k-sorted-lists) |
 | [0295-find-median-from-data-stream](https://github.com/shubhamnba2009/top-coding-150/tree/master/0295-find-median-from-data-stream) |
+| [0973-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/1014-k-closest-points-to-origin) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/shubhamnba2009/top-coding-150/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Quickselect
 |  |
 | ------- |
+| [0973-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/shubhamnba2009/top-coding-150/tree/master/1014-k-closest-points-to-origin) |
 ## Design
 |  |
